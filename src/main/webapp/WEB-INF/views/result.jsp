@@ -11,15 +11,15 @@
       <table>
          <tr>
             <td>Name</td>
-            <td>${name}</td>
+            <td>${profile.name}</td>
          </tr>
          <tr>
             <td>Age</td>
-            <td>${age}</td>
+            <td>${profile.age}</td>
          </tr>
          <tr>
             <td>ID</td>
-            <td>${id}</td>
+            <td>${profile.id}</td>
          </tr>
       </table>  
    </body>

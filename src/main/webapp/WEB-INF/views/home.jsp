@@ -7,7 +7,7 @@
 
    <body>
       <h2>Student Information</h2>
-      <form:form method = "POST" action = "/HelloWeb/addStudent">
+      <form:form method = "POST" action = "/NewSpringProject/profile" modelAttribute="profile">
          <table>
             <tr>
                <td><form:label path = "name">Name</form:label></td>
