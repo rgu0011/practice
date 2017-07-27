@@ -27,8 +27,10 @@ public class HomeController {
 		educationMap.put("bachelors", "Bachelors");
 		educationMap.put("masters", "Masters");
 		
-//		return new ModelAndView("home");
-		return mav;
+		model.addAttribute("educationMap", educationMap);
+		
+		return new ModelAndView("home");
+		// return mav;
 	}
 	
 	@RequestMapping(value="/profile", method = RequestMethod.POST)
