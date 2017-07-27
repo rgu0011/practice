@@ -3,6 +3,11 @@
 <html>
    <head>
       <title>Spring MVC Form Handling</title>
+      
+      <!-- works 
+      <p>Rosie added this line</p>
+      -->
+      
    </head>
 
    <body>
@@ -21,6 +26,13 @@
                <td><form:label path = "id">id</form:label></td>
                <td><form:input path = "id" /></td>
             </tr>
+            
+             <tr>
+               <td><form:radiobutton path="gender" value="M"/>Male</td>
+               <td><form:radiobutton path="gender" value="F"/>Female</td>
+            </tr>
+            
+            
             <tr>
                <td colspan = "2">
                   <input type = "submit" value = "Submit"/>

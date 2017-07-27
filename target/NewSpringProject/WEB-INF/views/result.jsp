@@ -21,6 +21,14 @@
             <td>ID</td>
             <td>${profile.id}</td>
          </tr>
+         
+         <tr>
+            <td>Gender</td>
+            <td>${profile.gender}</td>
+         </tr>
+         
+         
+         
       </table>  
    </body>
    
