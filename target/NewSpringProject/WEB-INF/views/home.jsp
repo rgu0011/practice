@@ -32,6 +32,10 @@
                <td><form:radiobutton path="gender" value="F"/>Female</td>
             </tr>
             
+            <tr>
+               <td><form:select path="education" items="${educationMap}"/></td>
+            </tr>
+            
             
             <tr>
                <td colspan = "2">

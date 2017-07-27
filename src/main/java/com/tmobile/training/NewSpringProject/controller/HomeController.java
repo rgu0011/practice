@@ -1,6 +1,7 @@
 package com.tmobile.training.NewSpringProject.controller;
 
 import java.io.IOException;
+import java.util.*; // for Map
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -19,7 +20,15 @@ public class HomeController {
 	@RequestMapping(value="/")
 	public ModelAndView test(@ModelAttribute("profile")Profile profile, Model model) throws IOException{
 		
-		return new ModelAndView("home");
+		ModelAndView mav = new ModelAndView("home");
+		
+		Map<String, String> educationMap = new HashMap<String, String>();
+		educationMap.put("high school", "High School");
+		educationMap.put("bachelors", "Bachelors");
+		educationMap.put("masters", "Masters");
+		
+//		return new ModelAndView("home");
+		return mav;
 	}
 	
 	@RequestMapping(value="/profile", method = RequestMethod.POST)

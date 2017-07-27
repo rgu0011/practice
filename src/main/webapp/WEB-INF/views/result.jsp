@@ -27,6 +27,11 @@
             <td>${profile.gender}</td>
          </tr>
          
+         <tr>
+            <td>Education</td>
+            <td>${profile.education}</td>
+         </tr>
+         
          
          
       </table>  

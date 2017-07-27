@@ -6,6 +6,7 @@ public class Profile {
 	private String name;
 	private int age;
 	private int id;
+	private String education;
 	
 	// need to make getters and setters for all fields
 	
@@ -40,5 +41,13 @@ public class Profile {
 	}
 	public void setId(int id) {
 		this.id = id;
+	}
+	
+	// 5: education
+	public String getEducation() {
+		return education;
+	}
+	public void setEducation(String education) {
+		this.education = education;
 	}
 }
